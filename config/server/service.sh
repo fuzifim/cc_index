@@ -9,3 +9,5 @@ sudo cp files/snippets/letsencrypt.conf /usr/local/nginx/snippets
 sudo cp files/snippets/ssl.conf /usr/local/nginx/snippets
 sudo cp -fr files/usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf
 sudo cp -fr files/usr/local/nginx/conf/conf.d/virtual.conf /usr/local/nginx/conf/conf.d
+sudo curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
