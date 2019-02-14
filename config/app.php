@@ -102,8 +102,7 @@ return [
     |
     */
 
-    //'debug' => env('APP_DEBUG'),
-	'debug' => false,
+    'debug' => env('APP_DEBUG'),
 
     /*
     |--------------------------------------------------------------------------
@@ -202,13 +201,11 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-        Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
         Illuminate\Cache\CacheServiceProvider::class,
         Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
-        Illuminate\Routing\ControllerServiceProvider::class,
         Illuminate\Cookie\CookieServiceProvider::class,
         Illuminate\Database\DatabaseServiceProvider::class,
         Illuminate\Encryption\EncryptionServiceProvider::class,
@@ -241,8 +238,8 @@ return [
         Collective\Remote\RemoteServiceProvider::class, 
 		Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
 		Darryldecode\Cart\CartServiceProvider::class, 
-		Teepluss\Theme\ThemeServiceProvider::class, 
-		Zizaco\Entrust\EntrustServiceProvider::class, 
+		Teepluss\Theme\ThemeServiceProvider::class,
+		Zizaco\Entrust\EntrustServiceProvider::class,
 		Nathanmac\Utilities\Parser\ParserServiceProvider::class, 
 		Pbmedia\LaravelFFMpeg\FFMpegServiceProvider::class, 
 		GoogleMaps\ServiceProvider\GoogleMapsServiceProvider::class, 

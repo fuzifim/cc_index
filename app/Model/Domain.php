@@ -8,7 +8,7 @@ class Domain extends Model
 {
 	use ElasticquentTrait;
 	//protected $connection = 'mysqlzcom';
-    protected $table = 'domains_z';
+    protected $table = 'domain';
 	public $timestamps = false; 
 	function getIndexName()
 	{

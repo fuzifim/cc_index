@@ -5,9 +5,6 @@ Homestead.json
 /log/*
 .env
 /storage/logs/*
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/views/*
 /public/32405_mysqladmin1315
 /public/affiliate
 /public/conf.d
